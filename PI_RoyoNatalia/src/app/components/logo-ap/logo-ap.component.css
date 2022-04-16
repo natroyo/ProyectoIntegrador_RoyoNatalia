@@ -2,35 +2,49 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .redes{
     margin-right: 0.5em;
 }
 
 #logoAP{
-    width: 150px;
+    width: 200px;
 }
 img{
-    width: 50px;
-    
+    width: 40px;
+    padding: 2px;
 }
 .btn{
     border-width: medium;
-    
+    margin-right: 7px;
+    margin-left: 10px;
 }
 /*--Para la vista de celular--*/
 @media (max-width:575px){
     .container{
-        flex-direction: column;
+        flex-direction:column;
+    }
+
+    #logoAp{
+        width: 100px;
     }
     .redes{
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
         align-items: center;
         margin-right: 0.5em;
     }
     .redes img{
-        margin: 0.2em;
+        width: 40px;
+        margin: 2px;
+        padding: 1px;
+    }
+    .btn{
+        border-width: thin;
+        width: 72px;
+        
+        
     }
     
 }

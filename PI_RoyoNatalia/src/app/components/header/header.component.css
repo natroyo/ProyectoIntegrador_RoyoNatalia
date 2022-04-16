@@ -1,5 +1,9 @@
 div{
-    background-color: #a1b5cb;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
+    background: linear-gradient(to top, #2b2950,#6662bb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  
 }
 
 app-social{
