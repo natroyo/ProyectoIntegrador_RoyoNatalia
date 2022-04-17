@@ -1,8 +1,12 @@
 .row{
-    background: #a1b5cb;
+    background-color: linear-gradient(to top, #2b2950,#6662bb);
+    color: lavenderblush;
+    font-weight: lighter;
+    
+    
 }
 footer{
-    color: #fefefe;
+    background: linear-gradient(to top, #2b2950,#6662bb);
     font-size: 15px;
     display: flex;
     flex-direction: column;

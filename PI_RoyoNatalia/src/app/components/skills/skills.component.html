@@ -4,9 +4,27 @@
         <circle-progress
             [percent]="85"
             [radius]="100"
+            [outerStrokeGradient]="true"
+            [outerStrokeWidth]="13"
+            [space]="-10"
+            [innerStrokeWidth]="30"
+            [outerStrokeColor]="'#501bef'"
+            [outerStrokeGradientStopColor]="'#263ee3'"
+            [innerStrokeColor]="'#E7E8EA'"
+            [animation]="true"
+            [animationDuration]="550"
+            [lazy]="true"
+            [showTitle]="true"
+            
+        ></circle-progress>
+    </div>
+    <div class="text-center col-sm-4 col-md-4 col-lg-4">
+        <circle-progress
+            [percent]="85"
+            [radius]="100"
             [outerStrokeWidth]="16"
             [innerStrokeWidth]="8"
-            [outerStrokeColor]="'#78C000'"
+            [outerStrokeColor]="'#3419b3'"
             [innerStrokeColor]="'#C7E596'"
             [animation]="true"
             [animationDuration]="300"
@@ -18,7 +36,7 @@
             [radius]="100"
             [outerStrokeWidth]="16"
             [innerStrokeWidth]="8"
-            [outerStrokeColor]="'#78C000'"
+            [outerStrokeColor]="'#3419b3'"
             [innerStrokeColor]="'#C7E596'"
             [animation]="true"
             [animationDuration]="300"
@@ -30,7 +48,7 @@
             [radius]="100"
             [outerStrokeWidth]="16"
             [innerStrokeWidth]="8"
-            [outerStrokeColor]="'#78C000'"
+            [outerStrokeColor]="'#3419b3'"
             [innerStrokeColor]="'#C7E596'"
             [animation]="true"
             [animationDuration]="300"
@@ -42,7 +60,7 @@
             [radius]="100"
             [outerStrokeWidth]="16"
             [innerStrokeWidth]="8"
-            [outerStrokeColor]="'#78C000'"
+            [outerStrokeColor]="'#3419b3'"
             [innerStrokeColor]="'#C7E596'"
             [animation]="true"
             [animationDuration]="300"
@@ -52,22 +70,13 @@
         <circle-progress
             [percent]="85"
             [radius]="100"
+            
             [outerStrokeWidth]="16"
             [innerStrokeWidth]="8"
-            [outerStrokeColor]="'#78C000'"
+            [outerStrokeColor]="'#3419b3'"
             [innerStrokeColor]="'#C7E596'"
-            [animation]="true"
-            [animationDuration]="300"
-        ></circle-progress>
-    </div>
-    <div class="text-center col-sm-4 col-md-4 col-lg-4">
-        <circle-progress
-            [percent]="85"
-            [radius]="100"
-            [outerStrokeWidth]="16"
-            [innerStrokeWidth]="8"
-            [outerStrokeColor]="'#78C000'"
-            [innerStrokeColor]="'#C7E596'"
+            [showSubtitle]="true"
+            [subtitleColor]="'#A9A9A9'"
             [animation]="true"
             [animationDuration]="300"
         ></circle-progress>
